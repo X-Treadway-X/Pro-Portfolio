@@ -1,0 +1,111 @@
+body {
+    background-color: #121212;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+
+}
+h1 {
+    color: #e2a114;
+    text-align: center;
+}
+
+
+main h2{
+    text-align: center;
+}
+
+
+
+h2 {
+    color: #e2a114;
+}
+
+
+main p {
+    text-align: center;
+}
+
+
+
+
+
+
+input[type='radio'] {
+    display: none;
+
+}
+
+label {
+
+    padding: 10px 20px;
+    background: darkgoldenrod;
+    color: #121212;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+
+
+    
+    
+}
+
+
+#skills_tab:checked + label[for='skills_tab'],
+
+#certifications_tab:checked + label[for='certifications_tab'],
+
+#projects_tab:checked + label[for='projects_tab'],
+
+#experience_tab:checked + label[for='experience_tab'],
+
+#education_tab:checked + label[for='education_tab'],
+
+#website_tab:checked + label[for='website_tab'],
+
+#tools_technologies_tab:checked + label[for='tools_technologies_tab'],
+
+#contact_availability_tab:checked + label[for='contact_availability_tab'] {
+
+    background: #121212;
+    color: darkgoldenrod;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid darkgoldenrod;
+
+}
+
+
+
+
+section {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+    
+
+}
+
+
+
+#skills_tab:checked ~ #skills_section,
+
+#certifications_tab:checked ~ #certifications_section,
+
+#projects_tab:checked ~ #projects_section,
+
+#experience_tab:checked ~ #experience_section,
+
+#education_tab:checked ~ #education_section, 
+
+#website_tab:checked ~ #myweb_section,
+
+#tools_technologies_tab:checked ~ #tools_Technologies_section,
+
+#contact_availability_tab:checked ~ #Contact_Availability_section {
+
+    display: block;
+}
+
+
