@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
-    color: aliceblue;
-    font-family: Arial, sans-serif;
+    color: #c9d7e0;
+    font-family: 'Junicode','Times New Roman', Times, serif;
     margin: 10px;
     padding: 10px;
 
@@ -9,6 +9,8 @@ body {
 h1 {
     color: #e2a114;
     text-align: center;
+    box-shadow: rgba(255, 217, 103, 0.24) 0 10px 32px 0;
+    border-radius: 10px;
 }
 
 
@@ -28,6 +30,44 @@ main p {
 }
 
 
+
+.profile_container {
+    color: rgb(233, 207, 122);
+    width: 450px;
+    background-color: #121212;
+    text-align: center;
+    margin: auto;
+    list-style: none;
+}
+
+
+.profile_container button {
+    background-color: rgb(250, 176, 56);
+    color: #121212;
+    border: 2px solid rgba(81, 38, 38, 0.588);
+    padding: 10px 15px;
+
+    border-radius: 14px;
+
+
+
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.profile_container button:hover {
+    background-color: #121212;
+    color: rgb(250, 176, 56);
+    border: 2px solid rgba(242, 194, 97, 0.588);
+    padding: 10px 15px;
+
+    border-radius: 14px;
+
+
+
+    font-size: 0.8em;
+    text-align: center;
+}
 
 
 
